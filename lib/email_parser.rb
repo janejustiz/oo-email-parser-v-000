@@ -13,7 +13,7 @@ class EmailParser
   def parse
     @@emails = @email.split(" " && ",")
     @@emailds.each do |email|
-      
+
     end
   end
 
