@@ -13,7 +13,6 @@ class EmailParser
   def parse
     @@emails = @email.split(/, | /)
 
-    @emails.each do
   end
 
 end
