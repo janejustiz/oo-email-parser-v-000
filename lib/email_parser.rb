@@ -4,7 +4,16 @@
 # or whitespace (' ').
 class EmailParser
 
+  @@emails = []
+
+  def self.new(string)
+    @@emails << string.split(", ")
+    @@emails
+  end
 
 
+  def parse
+
+  end
 
 end
