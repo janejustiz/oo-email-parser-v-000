@@ -10,7 +10,7 @@ class EmailParser
     self.new
   end
 
-  def parse
+  def parse(lol)
     @@emails = string.split(/[a-zA-Z]+\S+.com/)
     @@emails
   end
