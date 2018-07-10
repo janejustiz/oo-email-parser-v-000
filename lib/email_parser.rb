@@ -6,7 +6,7 @@ class EmailParser
 
   @@emails = []
 
-  def self.new(string)
+  def self.new
     self.new
   end
 
