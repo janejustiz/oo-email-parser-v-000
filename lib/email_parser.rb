@@ -7,14 +7,9 @@ class EmailParser
   @@emails = []
 
   def self.new(string)
-    variable = self.new
-    @@emails << string.split(/[a-zA-Z]+\S+.com/)
+    self.new
+    @@emails = string.split(/[a-zA-Z]+\S+.com/)
     @@emails
-  end
-
-
-  def parse
-
   end
 
 end
