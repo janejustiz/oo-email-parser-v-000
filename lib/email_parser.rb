@@ -14,8 +14,8 @@ class EmailParser
     @@emails = @email.split(/, | /)
     @@emails.detect{|email|
       if @@emails.count(email) > 1
-      email.delete
-    end}
+        email.delete
+      end}
     end
   end
 
