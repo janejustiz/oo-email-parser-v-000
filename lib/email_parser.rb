@@ -4,9 +4,7 @@
 # or whitespace (' ').
 class EmailParser
 
-  def 
 
-  end
 
 
 end
