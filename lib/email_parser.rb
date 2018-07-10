@@ -12,7 +12,7 @@ class EmailParser
   end
 
 
-  def self.parse
+  def parse
 
   end
 
