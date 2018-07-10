@@ -12,9 +12,9 @@ class EmailParser
 
   def parse
     @@emails = @email.split(/, | /)
-    @@emails.detect do |email|
+    @@emails.each do |email|
       if @@emails.count(email) > 1
-        email.delete
+        @@emails.delete(email)
       end
     end
   end
